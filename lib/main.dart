@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Curso Git',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Rama principal'),
+      home: const MyHomePage(title: 'Rama appBar'),
     );
   }
 }
