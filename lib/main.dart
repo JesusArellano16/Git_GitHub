@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Curso Git',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Rama principal'),
+      home: const MyHomePage(title: 'Curso Git y GitHub'),
     );
   }
 }
@@ -43,7 +43,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: TextStyle(backgroundColor: Colors.blueGrey),
+        ),
       ),
       body: Center(
         child: Column(
