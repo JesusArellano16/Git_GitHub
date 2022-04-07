@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const MyHomePage(title: 'Empieza lo bueno'),
+      home: const MyHomePage(title: 'Espero te este gustando el curso'),
     );
   }
 }
